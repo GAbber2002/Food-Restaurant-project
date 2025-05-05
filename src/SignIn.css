@@ -1,0 +1,64 @@
+.SignIn-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 30px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  font-family: Arial, sans-serif;
+}
+
+.SignIn-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.SignIn-container form div {
+  margin-bottom: 15px;
+}
+
+.SignIn-container label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #555;
+}
+
+.SignIn-container input[type="email"],
+.SignIn-container input[type="password"] {
+  width: 100%;
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.SignIn-container input[type="email"]:focus,
+.SignIn-container input[type="password"]:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.SignIn-container button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.SignIn-container button:hover {
+  background-color: #0056b3;
+}
+
+.SignIn-container .error {
+  color: red;
+  font-size: 13px;
+  margin-top: 5px;
+}
